@@ -2,10 +2,6 @@
 
 **前端HTML/CSS/JS + 后端Spring Boot + SQLite**
 
-展示视频如下：
-
-<video src="readme_pictures/录屏2024-12-17 23.59.07.mov"></video>
-
 ------
 
 ## **1. 项目概述**
