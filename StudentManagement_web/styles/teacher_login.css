@@ -1,0 +1,11 @@
+/* teacher_login.css */
+
+/* 自定义标题大小 */
+.main-header h1 {
+  font-size: 32px;
+}
+
+/* 特定容器阴影样式 */
+.container {
+  box-shadow: 0 10px 20px rgba(0, 122, 204, 0.3);
+}

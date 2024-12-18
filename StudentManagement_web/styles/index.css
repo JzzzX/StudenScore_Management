@@ -1,0 +1,13 @@
+/* index.css */
+
+/* 自定义标题大小 */
+.main-header h1 {
+  font-size: 48px;
+}
+
+/* 特定导航盒子 */
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}

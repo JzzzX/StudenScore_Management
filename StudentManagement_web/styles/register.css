@@ -1,0 +1,8 @@
+/* register.css - 特定样式 */
+.main-header h1 {
+  font-size: 32px; /* 特定标题大小 */
+}
+
+.container {
+  box-shadow: 0 10px 20px rgba(0, 122, 204, 0.3);
+}

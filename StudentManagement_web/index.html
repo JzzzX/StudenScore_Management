@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/index.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <title>学生管理系统</title>
+</head>
+<body>
+  <!-- 标题部分，独立于盒子外 -->
+  <header class="main-header">
+    <h1>学生管理系统</h1>
+  </header>
+
+  <!-- 内容盒子 -->
+  <div class="container">
+    <p>欢迎使用学生管理系统，请选择以下功能：</p>
+
+    <!-- 功能导航部分 -->
+    <div class="nav">
+      <a href="register.html" class="nav-item">学生注册</a>
+      <a href="student_login.html" class="nav-item">学生登录</a>
+      <a href="teacher_login.html" class="nav-item">教师登录</a>
+    </div>
+
+    <!-- 底部说明 -->
+    <footer>
+      <p>© 2024 学生管理系统——Web课程项目. 
+         <br>@author 2022051418043 季兴菲</p>
+    </footer>
+
+    <!-- 黑夜/白天模式切换按钮 -->
+    <div id="theme-toggle" class="theme-toggle" onclick="toggleTheme()">
+      <span class="theme-icon"></span>
+    </div>
+
+    <script>
+      // 切换黑夜/白天模式的功能
+      function toggleTheme() {
+        document.body.classList.toggle('dark-mode');
+      }
+    </script>
+  </div>
+</body>
+</html>

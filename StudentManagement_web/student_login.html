@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/student_login.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <title>学生登录</title>
+</head>
+<body>
+  <!-- 标题部分 -->
+  <header class="main-header">
+    <h1>学生登录</h1>
+  </header>
+
+  <!-- 内容区域 -->
+  <div class="container">
+    <form id="studentLoginForm">
+      <!-- 用户名 -->
+      <div class="form-group">
+        <label for="username">用户名：</label>
+        <input type="text" id="username" placeholder="请输入用户名" required>
+      </div>
+
+      <!-- 密码 -->
+      <div class="form-group">
+        <label for="password">密码：</label>
+        <input type="password" id="password" placeholder="请输入密码" required>
+      </div>
+
+      <!-- 提交按钮 -->
+      <button type="submit" class="submit-button">登录</button>
+    </form>
+  </div>
+
+  <!-- 底部版权说明 -->
+  <footer>
+    <p>© 2024 学生管理系统——Web课程项目.</p>
+  </footer>
+
+  <script src="js/student_login.js"></script>
+
+  <div id="responseMessage" style="color: red; margin-top: 10px;"></div>
+</body>
+</html>

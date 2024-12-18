@@ -1,0 +1,143 @@
+/* 页面基础样式 */
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #e3f2fd; /* 浅蓝色背景 */
+  margin: 0;
+  padding: 20px;
+  color: #333;
+}
+
+/* 标题样式 */
+h1 {
+  text-align: center;
+  font-size: 36px;
+  color: #007acc; /* 深蓝色标题 */
+  margin-bottom: 20px;
+}
+
+/* 上传成绩部分 */
+.upload-section {
+  margin-bottom: 20px;
+}
+
+label {
+  font-weight: bold;
+  color: #007acc;
+}
+
+#uploadFile {
+  padding: 8px;
+  font-size: 14px;
+}
+
+#uploadButton {
+  margin-left: 10px;
+  padding: 10px 15px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #007acc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#uploadButton:hover {
+  background-color: #005b99;
+  transform: translateY(-2px);
+}
+
+/* 表格样式 */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+  background: white;
+  border-radius: 6px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+  padding: 10px;
+  text-align: left;
+}
+
+table th {
+  background-color: #007acc; /* 表头深蓝色 */
+  color: white;
+  font-weight: bold;
+}
+
+table tr:nth-child(even) {
+  background-color: #e3f2fd; /* 偶数行浅蓝色背景 */
+}
+
+table tr:hover {
+  background-color: #bbdefb; /* 悬停行背景颜色 */
+}
+
+table td {
+  border-bottom: 1px solid #ddd;
+}
+
+/* 按钮样式 */
+button {
+  padding: 8px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  color: white;
+  background-color: #007acc;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+button:hover {
+  background-color: #005b99;
+  transform: translateY(-2px);
+}
+
+/* 添加成绩部分 */
+.add-score-section {
+  margin-top: 20px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.add-score-section h2 {
+  font-size: 24px;
+  color: #007acc;
+  margin-bottom: 15px;
+}
+
+.add-score-section label {
+  font-weight: bold;
+  color: #333;
+}
+
+.add-score-section input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  font-size: 14px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.add-score-section input:focus {
+  border-color: #007acc;
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.5);
+}
+
+.add-score-section button {
+  width: 100%;
+  padding: 12px 0;
+}

@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/register.css">
+  <link rel="stylesheet" href="styles/global.css">
+  <title>学生注册</title>
+</head>
+<body>
+  <!-- 标题部分 -->
+  <header class="main-header">
+    <h1>学生注册</h1>
+  </header>
+
+  <!-- 内容区域 -->
+  <div class="container">
+    <form id="registerForm">
+      <!-- 姓名 -->
+      <div class="form-group">
+        <label for="name">姓名（中文）：</label>
+        <input type="text" id="name" placeholder="请输入中文姓名" required>
+      </div>
+
+      <!-- 年龄 -->
+      <div class="form-group">
+        <label for="age">年龄：</label>
+        <input type="number" id="age" placeholder="请输入年龄" required>
+      </div>
+
+      <!-- 电子邮箱 -->
+      <div class="form-group">
+        <label for="email">电子邮箱：</label>
+        <input type="email" id="email" placeholder="请输入电子邮箱" required>
+      </div>
+
+      <!-- 密码 -->
+      <div class="form-group">
+        <label for="password">密码：</label>
+        <input type="password" id="password" placeholder="请输入密码" required>
+      </div>
+
+      <!-- 提交按钮 -->
+      <button type="submit" class="submit-button">注册</button>
+    </form>
+  </div>
+
+  <div id="responseMessage" style="color: red;"></div>
+
+  <!-- 底部版权说明 -->
+  <footer>
+    <p>© 2024 学生管理系统——Web课程项目.</p>
+  </footer>
+
+  <script src="js/register.js"></script>
+</body>
+</html>

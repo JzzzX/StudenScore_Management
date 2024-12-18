@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>学生成绩查询</title>
+  <!-- 全局CSS -->
+  <link rel="stylesheet" href="styles/global.css">
+  <!-- 页面局部CSS -->
+  <link rel="stylesheet" href="styles/view_scores.css">
+</head>
+<body>
+  <!-- 页面头部 -->
+  <header class="main-header">
+    <h1>学生成绩查询</h1>
+  </header>
+
+  <!-- 欢迎信息部分 -->
+  <div id="userInfo" style="text-align: center; margin-bottom: 20px; font-size: 18px; font-weight: bold;"></div>
+  <!-- 欢迎信息容器 -->
+  <div id="welcomeMessage" class="welcome-message"></div>
+
+  <!-- 成绩展示容器 -->
+  <div class="container">
+    <h2 class="table-title">我的成绩</h2>
+    <!-- 成绩表格 -->
+    <table class="view-scores-table" id="scoreTable">
+      <thead>
+        <tr>
+          <th>课程名称</th>
+          <th>分数</th>
+        </tr>
+      </thead>
+      <tbody>
+        <!-- 通过JS动态填充成绩数据 -->
+      </tbody>
+    </table>
+
+    <!-- 错误消息 -->
+    <p id="errorMessage" style="display: none;">无法获取成绩，请检查网络连接！</p>
+  </div>
+
+  <!-- 页面底部 -->
+  <footer>
+    <p>&copy; 2024 学生管理系统——Web课程项目。</p>
+  </footer>
+
+  <!-- JavaScript 脚本 -->
+  <script src="js/view_scores.js"></script>
+</body>
+</html>

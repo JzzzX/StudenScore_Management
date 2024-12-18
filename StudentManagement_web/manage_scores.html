@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles/manage_scores.css">
+  <script src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+  <title>管理学生成绩</title>
+</head>
+<body>
+  <div class="container">
+    <h1>学生成绩管理</h1>
+
+    <!-- 上传成绩文件 -->
+    <div class="upload-section">
+      <label for="uploadFile">批量上传成绩文件：</label>
+      <input type="file" id="uploadFile" accept=".xlsx, .csv">
+      <button id="uploadButton">上传</button>
+    </div>
+
+    <!-- 成绩列表 -->
+    <div class="scores-section">
+      <table id="scoresTable">
+        <thead>
+          <tr>
+            <th>学生姓名</th>
+            <th>学号</th>
+            <th>课程</th>
+            <th>成绩</th>
+            <th>操作</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- 动态插入学生成绩 -->
+        </tbody>
+      </table>
+    </div>
+
+    <!-- 添加新成绩 -->
+    <div class="add-score-section">
+      <h2>添加成绩</h2>
+      <form id="addScoreForm">
+        <label for="studentName">学生姓名：</label>
+        <input type="text" id="studentName" required>
+
+        <label for="studentId">学号：</label>
+        <input type="text" id="studentId" required>
+
+        <label for="course">课程：</label>
+        <input type="text" id="course" required>
+
+        <label for="score">成绩：</label>
+        <input type="number" id="score" min="0" max="100" required>
+
+        <button type="submit">添加</button>
+      </form>
+    </div>
+
+    <!-- 提示消息显示区域 -->
+    <div id="saveMessage" style="text-align: center; color: green; margin-top: 10px;"></div>
+    <!-- 成绩提交按钮 -->
+    <div style="text-align: center; margin-top: 20px;">
+      <button id="submitButton">提交成绩到服务器</button>
+    </div>
+
+  </div>
+  <script src="js/manage_scores.js"></script>
+</body>
+</html>
