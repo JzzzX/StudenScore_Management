@@ -328,7 +328,7 @@ spring.jpa.show-sql=true
 
 在 **`model`** 包中定义数据库表的实体类，并通过 **`@Entity`** 注解将类映射为数据库表。
 
-### **示例：User 实体类**
+**示例：User 实体类**
 
 ```java
 package com.example.student_management.model;
