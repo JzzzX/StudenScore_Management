@@ -482,7 +482,7 @@ public class StudentManagementApplication {
 5. **编写 Controller**：通过 Repository 接口操作数据库并提供 API。
 6. **启动项目**：Spring Boot 自动完成数据库初始化和表创建。
 
-通过这些步骤，您实现了 SQLite 数据库与 Spring Boot 后端的无缝集成，并通过 RESTful API 提供前后端交互接口。
+通过这些步骤，实现了 SQLite 数据库与 Spring Boot 后端的无缝集成，并通过 RESTful API 提供前后端交互接口。
 
 ### **用户表（User）**
 
