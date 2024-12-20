@@ -37,6 +37,9 @@
 ### **2.3 数据库**
 
 - **SQLite**：轻量级数据库，适合学习和本地部署。
+- 这篇博客文章介绍了SQLite的历史、架构以及如今的应用：
+[SQLite的文艺复兴](https://www.bmpi.dev/dev/renaissance-sqlite/)
+
 
 ------
 
